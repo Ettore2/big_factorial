@@ -23,7 +23,7 @@ void printReverse(cool_int *number){
 		for(; i > 0;i--){printf("0");}	
 	}
 	
-	printf("%d",number->n);
+	if(number->n != 0)printf("%d",number->n);
 	
 }
 
